@@ -9,6 +9,15 @@
   scroll-snap-type: x mandatory;
 }
 
+.timeline-container::-webkit-scrollbar {
+  height: 10px;
+}
+
+.timeline-container::-webkit-scrollbar-thumb {
+  background: #0071c5;
+  border-radius: 10px;
+}
+
 .timeline-card {
   min-width: 320px;
   background-color: white;
@@ -20,8 +29,8 @@
 }
 
 .timeline-card:hover {
-  transform: translateY(-10px) scale(1.03);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  transform: translateY(-12px) scale(1.04) rotate(-1deg);
+  box-shadow: 0 15px 25px rgba(0,0,0,0.25);
 }
 
 .timeline-card img {
